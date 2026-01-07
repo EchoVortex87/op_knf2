@@ -157,3 +157,10 @@ end
 Players.PlayerAdded:Connect(onPlayerAdded)
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "infinty yield",
+   Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/latest.lua'))()
+   end,
+})
