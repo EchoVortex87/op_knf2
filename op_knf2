@@ -168,7 +168,6 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
    Name = "xk5ng",
    Callback = function()
-		getgenv()._Stando = {
-}loadstring(game:HttpGet("https://xk5ng.github.io/XK5NG"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EchoVortex87/ge/refs/heads/main/ge"))()
    end,
 })
